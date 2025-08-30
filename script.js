@@ -39,6 +39,7 @@ form.addEventListener("submit", async (e) => {
     alertBox("Please enter a valid phone number (e.g. +91 9876543210).");
   else {
     console.log("Data: ", data);
+    alert("Your Leave Request send successful");
     const res = await fetch(
       "https://script.google.com/macros/s/AKfycbyfjHzLgtDCmL1pI8LLZLHAd6QQ8QUnB6mpyGvrNsonLTtWmYfKPMMmogAZEMFPZB0x/exec",
       {
