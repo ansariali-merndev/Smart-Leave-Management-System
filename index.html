@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    <title>Smart Leave Management System</title>
+</head>
+<body>
+    <header class="header-box">
+        <h2 class="header-top">Smart Leave Management System</h2>
+    </header>
+    <form id="form" class="form-container">
+        <div class="input-container">
+            <label for="fullname">Full Name</label>
+            <input name="fullname" id="fullname" type="text" class="input" autocomplete="off" required placeholder="e.g. John Doe">
+        </div>
+        <div class="input-container">
+            <label for="leaveType">Leave Type</label>
+            <select name="leaveType" id="leaveType" class="input" required>
+                <option value="">-- Select Leave Type --</option>
+                <option value="casual">Casual Leave</option>
+                <option value="sick">Sick Leave</option>
+                <option value="earned">Earned Leave</option>
+                <option value="unpaid">Unpaid Leave</option>
+                <option value="maternity">Maternity Leave</option>
+                <option value="paternity">Paternity Leave</option>
+                <option value="compensatory">Compensatory Off</option>
+                <option value="halfday">Half-Day Leave</option>
+                <option value="others">Other</option>
+            </select>
+        </div>
+        <div class="input-container">
+            <label for="startDate">Start Date</label>
+            <input name="startDate" id="startDate" type="date" class="input" autocomplete="off" required>
+        </div>
+        <div class="input-container">
+            <label for="endDate">End Date</label>
+            <input name="endDate" id="endDate" type="date" class="input" autocomplete="off" required>
+        </div>
+        <div class="input-container">
+            <label for="reason">Reason</label>
+            <textarea name="reason" id="reason" autocomplete="off" required placeholder="e.g. Medical emergency, Family function, Personal work..."></textarea>
+        </div>
+        <div class="input-container">
+            <label for="phone">Phone Number</label>
+            <input name="phone" id="phone" type="text" class="input" autocomplete="off" required placeholder="e.g. +91 98765 43210">
+        </div>
+        <div class="input-container">
+            <label for="yourEmail">Email Address</label>
+            <input name="yourEmail" id="yourEmail" type="email" class="input" autocomplete="off" required placeholder="e.g. you@gmail.com">
+        </div>
+        <div class="input-container">
+            <label for="managerEmail">Manager Email</label>
+            <input name="managerEmail" id="managerEmail" type="email" class="input" autocomplete="off" required placeholder="e.g. manager@gmail.com">
+        </div>
+        <button class="submit-btn">Submit form</button>
+    </form>
+    <footer>
+        <p>Thanks for using  <strong>Smart Leave Management System</strong> </p>
+        <p>code and develop by 💜 Ansari Ali</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

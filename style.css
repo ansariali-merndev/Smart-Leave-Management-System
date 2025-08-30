@@ -1,0 +1,124 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 6px;
+    background-color: #F0FAF4;
+    color: #064E3B;
+    line-height: 1.6;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    margin-bottom: 2rem;
+    background: #E6F0FA;
+    box-shadow: rgba(99, 99, 99, 0.15) 0px 2px 8px;
+}
+
+.header-top {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1E3A8A;
+    text-decoration: underline;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #ffffff;
+    max-width: 40rem;
+    margin: auto;
+    border-radius: 0.8rem;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 0;
+    width: 100%;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.4rem;
+}
+
+.input,
+textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+.input:focus,
+textarea:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+textarea {
+    min-height: 8rem;
+    resize: vertical;
+}
+
+.submit-btn {
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 100%;
+    color: white;
+    background: #2563EB;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #1E40AF;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    background: #E6F0FA;
+    color: #374151;
+    border-top: 1px solid #d1d5db;
+}
+
+footer p {
+    font-style: italic;
+    font-weight: 700;
+}
+
+footer strong {
+    color: #1E3A8A;
+    font-weight: 700;
+    font-style: italic;
+}
